@@ -1,32 +1,25 @@
 # 🎬 Personalized Movie Recommender
 
-This is a movie recommendation app built with Python and Gradio that gives personalized suggestions based on a user's favorite genres.
+[![Open in Spaces](https://img.shields.io/badge/🤗-Demo%20on%20HuggingFace-blue)](https://huggingface.co/spaces/Kernie12/movie-recommender)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## 💡 Features
+A content-based movie recommender system with interactive visualizations.
 
-- 📊 Genre preference chart for each user
-- 🎯 Personalized movie recommendations from IMDb data
-- 🎛 Filter by genre
-- 📁 Download recommendations as CSV
-- 🌐 Public web link via Gradio (local or hosted)
+## ✨ Features
+- **Genre preference analysis** - Personalized bar charts
+- **AI-powered recommendations** - Matches movies to your taste
+- **CSV export** - Download your results
+- **Web interface** - Gradio-powered UI
 
-## 📂 Files
+## 📂 File Structure
+- `app.py` - Main application
+- `user_ratings.csv` - Renamed from "My favourite Movie Survey..."
+- `imdb_movies.csv` - Movie database 
+- `requirements.txt` - Dependencies
 
-- `app.py`: Main application code
-- `My favourite Movie Survey for friends .csv`: Ratings collected from friends
-- `imdb movies.csv`: IMDb-based dataset
-- `requirements.txt`: Dependencies for running the app
-
-## 🚀 How to Run Locally
-
-1. Clone the repo:
-
+## 🚀 Quick Start
 ```bash
-git clone https://github.com/Kernie/Personalised-movie-recommender-app.git
-cd Personalised-movie-app
-2. install dependencies
-
+git clone https://github.com/Kernie12/Personalised-Movie-Recommender-App.git
 pip install -r requirements.txt
-
-Run the app: 
 python app.py
